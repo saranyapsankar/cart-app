@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.header {
+  background-color: #04aa6d;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  place-content: center space-around;
+  align-items: center;
+}
+.title {
+  color: white;
+}
+.input {
+  width: 100px;
+  border: 2px solid grey;
+  border-radius: 3px;
+  margin-right: 2px;
+}
+.btn {
+  width: 40px;
+  height: 20px;
+  padding: 3.5px 0;
+  background-color: black;
+  border-radius: 3px;
+  color: white;
+  font-size: 10px;
+}
